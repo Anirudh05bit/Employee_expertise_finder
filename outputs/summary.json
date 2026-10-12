@@ -1,0 +1,60 @@
+{
+  "employees": 1005,
+  "edges": 17002,
+  "departments": 42,
+  "reachable_dept_pairs": 1722,
+  "structurally_dependent_employees": 399,
+  "broker_but_replaceable_employees": 34,
+  "louvain_communities": 13,
+  "nmi_vs_departments": 0.8764944799542767,
+  "ari_vs_departments": 0.959096649036895,
+  "k": 10,
+  "ddbd_overlap_with": {
+    "Degree": 0.0,
+    "Betweenness": 0.0,
+    "PageRank": 0.0
+  },
+  "results_at_k": {
+    "DDBD": {
+      "disconnected_pairs": 164.0,
+      "connectivity_retained_pct": 90.476,
+      "total_path_increase": 182.0,
+      "cross_dept_edges_retained_pct": 95.357,
+      "fragile_pairs_pct": 49.358,
+      "largest_strong_cc_pct": 98.109
+    },
+    "Degree": {
+      "disconnected_pairs": 0.0,
+      "connectivity_retained_pct": 100.0,
+      "total_path_increase": 62.0,
+      "cross_dept_edges_retained_pct": 86.314,
+      "fragile_pairs_pct": 52.439,
+      "largest_strong_cc_pct": 98.607
+    },
+    "Betweenness": {
+      "disconnected_pairs": 0.0,
+      "connectivity_retained_pct": 100.0,
+      "total_path_increase": 73.0,
+      "cross_dept_edges_retained_pct": 86.204,
+      "fragile_pairs_pct": 52.381,
+      "largest_strong_cc_pct": 98.607
+    },
+    "PageRank": {
+      "disconnected_pairs": 0.0,
+      "connectivity_retained_pct": 100.0,
+      "total_path_increase": 20.0,
+      "cross_dept_edges_retained_pct": 95.667,
+      "fragile_pairs_pct": 53.194,
+      "largest_strong_cc_pct": 98.109
+    },
+    "Random (mean)": {
+      "disconnected_pairs": 0.0,
+      "connectivity_retained_pct": 100.0,
+      "total_path_increase": 20.6,
+      "cross_dept_edges_retained_pct": 97.9,
+      "fragile_pairs_pct": 52.125,
+      "largest_strong_cc_pct": 98.667
+    }
+  },
+  "runtime_sec": 15.2
+}

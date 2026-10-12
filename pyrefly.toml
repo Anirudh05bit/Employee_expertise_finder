@@ -1,0 +1,19 @@
+search-path = [
+    ".",
+    "C:/Users/aniru/AppData/Local/Programs/Python/Python311/Lib/site-packages",
+]
+
+ignore-missing-imports = [
+    "plotly",
+    "plotly.*",
+    "streamlit",
+    "streamlit.*",
+    "scipy",
+    "scipy.*",
+    "joblib",
+    "joblib.*",
+    "sklearn",
+    "sklearn.*",
+    "networkx",
+    "networkx.*",
+]
